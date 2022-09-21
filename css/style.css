@@ -1,0 +1,237 @@
+/*reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Cookie&family=Ibarra+Real+Nova&family=Playfair+Display:wght@400;800&family=Roboto:wght@100&family=Taviraj:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #fff59a;
+}
+
+ /*HEADER*/
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: space-between; /*espacio entre elementos*/
+    align-items: center;
+    height: 140px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    height: 40px;
+    width: auto;
+    cursor: pointer; /*manito*/
+    color:bisque;
+}
+
+.header .nav li{
+    list-style: none; /*saca la linea de abajo*/
+}
+
+.header .nav li{
+    display: inline-block; /*esto alinea los link*/
+    padding: 0px 20px;
+}
+
+.header .nav li:hover{
+transform: scale(1.1); /*esto hace que al pasar
+con el raton arriba de los link estos
+se agranden un poquito*/
+}   
+
+.header .nav li a:hover{
+    color:rgb(0, 92, 128); /*esto hace que al pasar
+    el raton cambie de color los link */
+}
+
+.header .nav li a{
+    font-size: 700;
+    color:bisque;
+    text-decoration: none; /*esto saca la linea de abajo del link*/  
+}
+
+ /*INICIO*/
+.titulo{
+    text-align: center;
+}
+
+p{
+    text-align: center ;
+}
+
+.img{
+ background-size: contain;
+}
+
+main{
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/mar.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ /*FOOTER*/
+.footer{
+    background-color:#1b3039 ;
+    height: 60px;
+}
+.footer h2{
+    color:#fff59a;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;  
+}
+
+ /*CONTACTO*/
+.coctacto{
+   display: flex;
+   width: 400px;
+   height: 450px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.contacto{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*display: flex;
+  
+   /* background-color:#fff59a;*/
+   /* background-size: 100vh 100vh;
+    background-attachment: fixed;
+    margin: 0;*/
+/*.formulario{
+    width: 500px;
+    margin: 0 auto;
+    background: rgba(64, 60, 60, 0.3);
+    padding: 20px 20px;
+    border-radius: 30px;
+    align-content: center;
+    justify-content: center;
+}
+*/
+
+
+h2{
+    color:#fff59a;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+  /*NOSOTROS*/
+  .nosotros{ /*contenedor padre de imagenes*/
+    display: flex; 
+    gap: 40px;
+    margin: 90px 50px;
+    align-items: center; 
+}   
+
+.disenador{ /*contennedor de image/nombre/parrafo*/
+    width: 800px;
+   
+}
+
+   /*nombres*/
+.disenador h3{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+  /*trabajo sobre las imagenes*/
+.ella{ 
+    width: 60%;
+    border-radius: 50px;
+}
+
+.caro{
+    display: flex;
+    gap: 10px;
+    margin: 80px;  
+}
+
+.ella{/*trabaja la primera imagen*/
+    width: 60%;
+}
+.she h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ /*PRODUCTOS*/
+ .productos{
+     display: flex; 
+     gap: 40px;
+     margin: 90px 50px;
+     align-items: center; 
+     flex-direction: row-reverse;
+ }
+ .productosDos{
+    
+    display: flex; 
+    gap: 40px;
+    margin: 90px 50px;
+    align-items: center; 
+    flex-direction: row-reverse;
+ }
+
+ .art{
+    width: 60%;
+    border-radius: 20px;
+ }
+
+ .mas{
+     border-radius: 20px;
+     background-color: rgb(109, 172, 109);
+     padding: 5px;
+     width: 80px;
+     margin-top: 10px;
+ }
+ 
+
+
+
+
+
+
+
+
